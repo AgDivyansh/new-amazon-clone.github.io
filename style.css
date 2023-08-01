@@ -1,0 +1,373 @@
+* {
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.navbar {
+    height: 60px;
+    background-color: #0F1111;
+    /* padding-top: 0.9%; */
+    /* color: white; */
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.nav-logo {
+    /* border: 2px solid white; */
+    height: 50px;
+    width: 100px;
+}
+
+.logo {
+    background-image: url("/amazon_logo.png");
+    height: 50px;
+    width: 100px;
+    background-size: cover;
+}
+
+.border {
+    border: 1.5px solid transparent;
+}
+
+.border:hover {
+    border: 1.5px solid white;
+    /* height: 60px; */
+}
+
+/* for address box  */
+.add-first {
+    color: #cccccc;
+    font-size: 0.85rem;
+    margin-left: 15px;
+}
+
+.add-second {
+    font-size: 1rem;
+    margin-left: 3px;
+}
+
+.add-icon {
+    /* border: 2px solid white; */
+    display: flex;
+    /* margin-top: 18%; */
+    align-items: center;
+}
+
+.nav-address {
+    /* border: 9px solid white; */
+    height: 50px;
+    /* padding: 1%; */
+}
+
+.nav-search {
+    display: flex;
+    height: 40px;
+    background-color: pink;
+    width: 60%;
+    justify-content: space-between;
+    border-radius: 10px;
+    /* border: 1px solid pink; */
+
+    /* padding: 1.5%; */
+}
+
+.nav-search-input {
+    /* color: blue; */
+    /* display: none; */
+    width: 100%;
+    border: none;
+    font-size: 1rem;
+}
+
+.nav-search-select {
+    background-color: #f3f3f3;
+    text-align: center;
+    width: 50px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border: none;
+}
+
+.search-icon {
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.1rem;
+    background-color: #febd68;
+    /* background-color: red; */
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+/* for box 4 hello sign in wala box */
+span {
+    font-size: 0.8rem;
+
+}
+
+.nav-second {
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+
+.nav-signin {
+    border: 1.5px solid transparent;
+}
+
+.nav-search:hover {
+    border: 2px solid orange;
+}
+
+/* for box 6 for cart box */
+.nav-cart {
+    /* display: flex; */
+}
+
+.nav-cart i {
+    font-size: 1.5rem;
+}
+
+/* css for pannel  */
+.pannel {
+    display: flex;
+    background-color: #222f3d;
+    color: white;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.pannel-ops {
+    /* border: 2px solid pink; */
+    display: flex;
+    /* justify-content: center; */
+
+    align-items: center;
+    height: 38px;
+    width: 70%;
+    font-size: 0.8rem;
+    font-weight: 700;
+
+}
+
+.pannel-ops p {
+    margin-left: 4%;
+}
+
+
+/* now for hero section  */
+.hero-section {
+    /* background-color: pink; */
+    background-image: url(/hero_image.jpg);
+    height: 380px;
+    /* width: 100%; */
+    background-size: cover;
+}
+
+.hero-msg {
+    background-color: rgb(215, 212, 212);
+    color: black;
+    /* border: 2px solid black; */
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.85rem;
+    width: 90%;
+    border-radius: 5px;
+    margin-bottom: 2%;
+    /* display: none; */
+}
+
+.hero-msg a {
+    text-decoration: none;
+    color: #007185;
+}
+.hero-section
+{
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+
+}
+
+/* shop section */
+.shop-section
+{
+    /* display: none; */
+    /* border: 2px solid black; */
+    display: flex;
+    flex-wrap: wrap;
+    /* width: 90%; */
+    justify-content: space-evenly;
+    background-color:rgb(232, 230, 230);
+    /* margin-top: 10%; */
+}
+.box
+{
+    /* border: 2px solid black; */
+    width: 23%;
+    height: 300px;
+    /* margin: 0.8%; */
+    background-color: white;
+    /* border-radius: 10px; */
+    margin-top: 5%;
+}
+
+.box1-img
+{
+    background-image: url(/box1_image.jpg);
+    /* height: 250px; */
+    /* width: 100%; */
+    /* background-color: pink; */
+    /* background-size: cover; */
+}
+.box2-img
+{
+    background-image: url(/box2_image.jpg);
+    /* height: 250px; */
+    /* width: 100%; */
+    /* background-color: pink; */
+    /* background-size: cover; */
+}
+.box3-img
+{
+    background-image: url(/box3_image.jpg);
+    /* height: 250px; */
+    /* width: 100%; */
+    /* background-color: pink; */
+    /* background-size: cover; */
+}
+.box4-img
+{
+    background-image: url(/box4_image.jpg);
+    /* height: 250px; */
+    /* width: 100%; */
+    /* background-color: pink; */
+    /* background-size: cover; */
+}
+.box5-img
+{
+    background-image: url(/box5_image.jpg);
+    /* height: 250px; */
+    /* width: 100%; */
+    /* background-color: pink; */
+    /* background-size: cover; */
+}
+.box6-img
+{
+    background-image: url(/box6_image.jpg);
+    /* height: 250px; */
+    /* width: 100%; */
+    /* background-color: pink; */
+    /* background-size: cover; */
+}
+.box7-img
+{
+    background-image: url(/box7_image.jpg);
+    /* height: 250px; */
+    /* width: 100%; */
+    /* background-color: pink; */
+    /* background-size: cover; */
+}
+.box8-img
+{
+    background-image: url(/box8_image.jpg);
+    /* height: 250px; */
+    /* width: 100%; */
+    /* background-color: pink; */
+    /* background-size: cover; */
+}
+.box-img
+{
+    height: 75%;
+    background-size: cover;
+}
+.box-content
+{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 3.5%;
+}
+.box-content p
+{
+    color: #007185;
+}
+.box-content p:hover
+{
+    /* cursor: ; */
+    /* display:none ; */
+}
+/* design of footer  */
+footer
+{
+    margin-top: 1.5%;
+}
+.foot-pannel1
+{
+    background-color: #37475a;;
+    color: white;
+    /* text-align: center; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+    /* margin-top: 2%; */
+    /* padding: 1.5%; */
+    font-size: 0.7rem;
+}
+.foot-pannel2
+{
+    background-color:#222f3d;
+    color: white;
+    height: 300px;
+    display: flex;
+    justify-content: space-around;
+}
+.foot-pannel2 p
+{
+    margin-top: 10%;
+}
+ul
+{
+    margin-top: 2%;
+}
+.foot-pannel2 a
+{
+    text-decoration: none;
+    color: #dddddd;
+    font-size: 0.8rem;
+    margin-top: 10%;
+    display: block;
+    /* margin-top: 50%; */
+    /* color: black; */
+}
+.foot-pannel3
+{
+    border-top: 0.5px solid white;
+    background-color: #222f3d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+}
+.foot-pannel4
+{
+    background-color: #0F1111;
+    color: white;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    height: 75px;
+}
+.pages a 
+{
+    color: white;
+    text-decoration: none;
+    /* display: none; */
+}
